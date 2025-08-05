@@ -38,7 +38,7 @@ header{
     height: 5rem;
     padding: 1.5rem 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 header ul{
@@ -197,8 +197,6 @@ header ul li a:hover{
     width: 70%;
     object-fit: cover;
     height: 90dvh;
-  
-
 }
 .features-text-section{
     height: 90dvh;
@@ -208,7 +206,6 @@ header ul li a:hover{
     width: 95%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .features-title{
@@ -261,6 +258,8 @@ header ul li a:hover{
 }
 .features-2-text-section{
     width: 45%;
+    display: flex;
+    flex-direction: column;
 
 }
 .features-2 img{
@@ -351,11 +350,7 @@ header ul li a:hover{
     .features-text-section{
         width: 60%;
     }
-    .man{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    }
+    
     .features-1-des{
         margin-top: 15rem;
         width: 90%;
@@ -365,12 +360,6 @@ header ul li a:hover{
     }
     .features-2>*{
         width: 100%;
-    }
-    .features-2-text-section{
-            display: flex;
-    flex-direction: column;
-    align-items: center;
-
     }
     .airpods-pockets{
         left: 50%;
@@ -391,6 +380,7 @@ header ul li a:hover{
           display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 8rem;
     }
     .features-title{
         left: 0%;
@@ -417,6 +407,9 @@ header ul li a:hover{
     .airpods-pockets{
         top: 0%;
         width: 100% !important;
+        left: 50%;
+        top: -5%;
+        transform: translateX(-50%);
     }
 
     .sidebar{
