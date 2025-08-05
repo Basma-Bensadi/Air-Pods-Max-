@@ -38,13 +38,11 @@ Built as part of my web development learning journey, this page was completed in
 /images/             → Images 
 ---
 # 💡What I Learned
--Structuring a clean landing page layout
+- Structuring a clean landing page layout
 
--Creating elegant animations with GSAP
+- Creating elegant animations with GSAP
 
--Writing modular and organized front-end code
-
--Building a responsive page from scratch in a short time
+- Building a responsive page from scratch in a short time
 ---
 # 🤍Author
 Made with 💻 and ☕ by Basma Bensadi
