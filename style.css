@@ -418,14 +418,15 @@ header ul li a:hover{
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .features-1{
         display: flex;
         align-items: center;
-        background-color: red;
     }
     .features-2-text-section{
         background-color: green;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
     .sidebar{
