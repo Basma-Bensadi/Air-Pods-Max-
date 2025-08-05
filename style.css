@@ -424,10 +424,10 @@ header ul li a:hover{
         align-items: center;
     }
     .features-2-text-section{
-        background-color: green;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
     }
     .sidebar{
         width: 100%;
