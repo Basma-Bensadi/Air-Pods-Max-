@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
     duration: 2,
     scrollTrigger: {
       trigger: ".features-text-section",
-      start: "top 80%", // smoother trigger
     },
   });
 
@@ -52,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
     duration: 2,
     scrollTrigger: {
       trigger: ".man",
-      start: "top 80%",
     },
   });
 
@@ -61,7 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
     duration: 3,
     scrollTrigger: {
       trigger: ".features-2-text-section",
-      start: "top 80%",
     },
   });
 
@@ -71,7 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
     delay: 0.1,
     scrollTrigger: {
       trigger: ".airpods-pockets",
-      start: "top 90%",
     },
   });
 });
