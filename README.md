@@ -3,7 +3,7 @@
 A modern, animated landing page inspired by the sleek design of AirPods Max.
 Built as part of my web development learning journey, this page was completed in just a few hours as a personal challenge.
 ---
-##🚀 Features
+#🚀 Features
 ✅ Fully responsive design (mobile & desktop)
 
 🎞️ Smooth, scroll-based animations using GSAP
@@ -15,7 +15,7 @@ Built as part of my web development learning journey, this page was completed in
 ⚡ Fast load and simple navigation
 ---
 
-##🛠️ Tech Stack
+#🛠️ Tech Stack
 -HTML
 
 -CSS
@@ -25,11 +25,11 @@ Built as part of my web development learning journey, this page was completed in
 -GSAP (GreenSock Animation Platform)
 ---
 
-##📸 Live Demo
+#📸 Live Demo
 👉 https://basma-bensadi.github.io/Air-Pods-Max-/
 ---
 
-##📁 Folder Structure
+#📁 Folder Structure
 bash
 Copier
 Modifier
@@ -38,7 +38,7 @@ Modifier
 /script.js           → GSAP animations & interactions  
 /assets/             → Images and fonts
 ---
-##💡 What I Learned
+#💡 What I Learned
 -Structuring a clean landing page layout
 
 -Creating elegant animations with GSAP
@@ -47,7 +47,7 @@ Modifier
 
 -Building a responsive page from scratch in a short time
 ---
-##🤍 Author
+#🤍 Author
 Made with 💻 and ☕ by Basma Bensadi
 [https://www.linkedin.com/in/basma-bensadi-7b00532a9/] – My Linkedin Profile <3
 
