@@ -31,13 +31,11 @@ Built as part of my web development learning journey, this page was completed in
 ---
 
 # 📁Folder Structure
-bash
-Copier
-Modifier
+
 /index.html          → Main page  
 /style.css           → Styling  
 /script.js           → GSAP animations & interactions  
-/assets/             → Images and fonts
+/images/             → Images 
 ---
 # 💡What I Learned
 -Structuring a clean landing page layout
