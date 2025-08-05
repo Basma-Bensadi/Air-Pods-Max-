@@ -11,63 +11,54 @@ xmark.addEventListener("click",()=>{
 })
 
 //animations 
-document.addEventListener("DOMContentLoaded", () => {
-  gsap.registerPlugin(ScrollTrigger);
+gsap.from(".side-title",{
+    x:"-20%",
+    duration :3,
+})
 
-  // Entry animations (not scroll-based)
-  gsap.from(".side-title", {
-    x: "-20%",
-    duration: 3,
-  });
+gsap.from(".main-picture",{
+    y:"-30%",
+    duration:3,
+})
+gsap.from(".text-section",{
+    x:"-10%",
+    delay:.2,
+    duration:3,
+})
 
-  gsap.from(".main-picture", {
-    y: "-30%",
-    duration: 3,
-  });
+gsap.from(".side-main-picture",{
+    y:"50%",
+    delay:.3,
+    duration:3,
+})
 
-  gsap.from(".text-section", {
-    x: "-10%",
-    delay: 0.2,
-    duration: 3,
-  });
 
-  gsap.from(".side-main-picture", {
-    y: "50%",
-    delay: 0.3,
-    duration: 3,
-  });
+document.addEventListener("DOMContentLoaded", (event) => {
+  gsap.registerPlugin(ScrollTrigger)
+  // gsap code here!
+ });
 
-  // Scroll animations
-  gsap.from(".features-text-section", {
-    x: "-15%",
-    duration: 2,
-    scrollTrigger: {
-      trigger: ".features-text-section",
-    },
-  });
+ gsap.from(".features-text-section",{
+    x:"-15%",
+    duration:2,
+     scrollTrigger:".features-text-section",
+})
+gsap.from(".man",{
+    x:"-15%",
+    duration:2,
+    scrollTrigger:".man"
 
-  gsap.from(".man", {
-    x: "-15%",
-    duration: 2,
-    scrollTrigger: {
-      trigger: ".man",
-    },
-  });
+})
 
-  gsap.from(".features-2-text-section", {
-    x: "-15%",
-    duration: 3,
-    scrollTrigger: {
-      trigger: ".features-2-text-section",
-    },
-  });
+gsap.from(".features-2-text-section",{
+    x:"-15%",
+    duration:3,
+    scrollTrigger:".features-2-text-section"
+})
 
-  gsap.from(".airpods-pockets", {
-    y: "10%",
-    duration: 3,
-    delay: 0.1,
-    scrollTrigger: {
-      trigger: ".airpods-pockets",
-    },
-  });
-});
+gsap.from(".airpods-pockets",{
+    y:"10%",
+    duration:3,
+    delay:.1,
+    scrollTrigger:".airpods-pockets"
+})
