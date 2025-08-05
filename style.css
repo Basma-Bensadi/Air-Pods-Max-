@@ -189,6 +189,7 @@ header ul li a:hover{
     display: flex;
     align-items: center;
     background-color: var(--bg-2);
+    position: relative;
 }
 
 .man{
@@ -196,6 +197,10 @@ header ul li a:hover{
     width: 70%;
     object-fit: cover;
     height: 90dvh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 .features-text-section{
     height: 90dvh;
@@ -203,6 +208,9 @@ header ul li a:hover{
     padding-left: min(5rem , 5%);
     position: relative;
     width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .features-title{
@@ -255,6 +263,9 @@ header ul li a:hover{
 }
 .features-2-text-section{
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .features-2 img{
