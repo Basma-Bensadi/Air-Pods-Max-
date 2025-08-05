@@ -197,9 +197,7 @@ header ul li a:hover{
     width: 70%;
     object-fit: cover;
     height: 90dvh;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  
 
 }
 .features-text-section{
@@ -263,9 +261,6 @@ header ul li a:hover{
 }
 .features-2-text-section{
     width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 .features-2 img{
@@ -356,7 +351,11 @@ header ul li a:hover{
     .features-text-section{
         width: 60%;
     }
-    
+    .man{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
     .features-1-des{
         margin-top: 15rem;
         width: 90%;
@@ -366,6 +365,12 @@ header ul li a:hover{
     }
     .features-2>*{
         width: 100%;
+    }
+    .features-2-text-section{
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+
     }
     .airpods-pockets{
         left: 50%;
