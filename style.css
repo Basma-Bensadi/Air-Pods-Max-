@@ -426,6 +426,7 @@ header ul li a:hover{
     }
     .features-2-text-section{
         background-color: green;
+        align-items: center;
     }
     .sidebar{
         width: 100%;
