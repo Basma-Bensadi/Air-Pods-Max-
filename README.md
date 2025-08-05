@@ -17,13 +17,13 @@ Built as part of my web development learning journey, this page was completed in
 ---
 
 # 🛠️Tech Stack
--HTML
+- HTML
 
--CSS
+- CSS
 
--JavaScript
+- JavaScript
 
--GSAP (GreenSock Animation Platform)
+- GSAP(GreenSock Animation Platform)
 ---
 
 # 📸Live Demo
