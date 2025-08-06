@@ -33,32 +33,36 @@ gsap.from(".side-main-picture",{
 })
 
 
-document.addEventListener("DOMContentLoaded", (event) => {
-  gsap.registerPlugin(ScrollTrigger)
-  // gsap code here!
- });
+document.addEventListener("DOMContentLoaded", () => {
+  gsap.registerPlugin(ScrollTrigger);
 
- gsap.from(".features-text-section",{
-    x:"-15%",
-    duration:2,
-     scrollTrigger:".features-text-section",
-})
-gsap.from(".man",{
-    x:"-15%",
-    duration:2,
-    scrollTrigger:".man"
+  const mm = gsap.matchMedia();
 
-})
+  mm.add("(min-width: 769px)", () => {
 
-gsap.from(".features-2-text-section",{
-    x:"-15%",
-    duration:3,
-    scrollTrigger:".features-2-text-section"
-})
+    gsap.from(".features-text-section", {
+      x: "-15%",
+      duration: 2,
+      scrollTrigger: ".features-text-section",
+    });
 
-gsap.from(".airpods-pockets",{
-    y:"10%",
-    duration:3,
-    delay:.1,
-    scrollTrigger:".airpods-pockets"
-})
+    gsap.from(".man", {
+      x: "-15%",
+      duration: 2,
+      scrollTrigger: ".man",
+    });
+
+    gsap.from(".features-2-text-section", {
+      x: "-15%",
+      duration: 3,
+      scrollTrigger: ".features-2-text-section",
+    });
+
+    gsap.from(".airpods-pockets", {
+      y: "10%",
+      duration: 3,
+      delay: 0.1,
+      scrollTrigger: ".airpods-pockets",
+    });
+  });
+});
